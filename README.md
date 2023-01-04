@@ -38,7 +38,9 @@ ley array1 : number[] = [1, 2, 3, 4];<br>
 ・TypeScriptのファイル名.tsは下記のコマンドでコンパイルする。<br>
 ` npx tsc TypeScriptのファイル名.ts `<br>
 
-3. Webpackとwebpack-cli（コマンドラインツール）とwebpack-dev-server（ローカルサーバーが立てられる）とts-loader（コンパイル時に読み込む）をインストールする<br>
+3. Webpackとwebpack-cli（コマンドラインツール）<br>
+webpack-dev-server（ローカルサーバーが立てられる）<br>
+ts-loader（コンパイル時に読み込む）をインストールする<br>
 ` npm i -D webpack webpack-cli webpack-dev-server ts-loader `
 
 4. webpack.config.jsを作成し環境を設定する。<br>
