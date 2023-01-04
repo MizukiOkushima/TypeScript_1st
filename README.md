@@ -48,3 +48,15 @@ webpack.config.jsを編集する編集（ソースを参照）<br>
 5. TypeScriptの設定を決める環境設定をする。
 ` npx tsc --init `<br>
 tsconfig.jsonファイルが作成されその中に設定を入力する。<br>
+
+### ローカルサーバーの立て方
+
+1. package.jsonファイルのデバッグ"scripts"に下記を追加する。<br>
+` "start": "webpack serve" `<br>
+` "build": "webpack" `<br>
+
+2. コンパイルする
+` npm run build `
+  
+3. サーバーを下記のコマンドで立てる。<br>
+` npm start `
