@@ -12,9 +12,9 @@ TypeScriptはJavaScriptへコンパイルする必要がある。<br>
 var list: String[] = [];<br>
 let suuzi: Number = 1;<br>
 const name: String = "プログラミング";<br>
-ley array1 : Array<number> = [1, 2, 3, 4];<br>
+let array1 : Array<number> = [1, 2, 3, 4];<br>
 // 上と同じで型宣言が違う書き方<br>
-ley array1 : number[] = [1, 2, 3, 4];<br>
+let array1 : number[] = [1, 2, 3, 4];<br>
 
 ### TypeScriptを書くメリット
 
