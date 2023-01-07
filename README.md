@@ -47,6 +47,6 @@ ts-loader（コンパイル時に読み込む）をインストールする<br>
 ` touch webpack.config.js `<br>
 webpack.config.jsを編集する編集（ソースを参照）<br>
 
-5. TypeScriptの設定を決める環境設定をする。
+5. TypeScriptの設定を決める環境設定をする。<br>
 ` npx tsc --init `<br>
 tsconfig.jsonファイルが作成されその中に設定を入力する。<br>
